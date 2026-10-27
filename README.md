@@ -24,7 +24,7 @@ It is a demo. There is no cart, checkout, payment or stock database, and the new
 Requirements: Node 24 and pnpm 11.
 
 ```bash
-git clone <repo-url> brio-energy
+git clone https://github.com/JORDANROBERTO74/brio-energy.git
 cd brio-energy
 pnpm install
 pnpm dev
@@ -86,7 +86,7 @@ NEXT_PUBLIC_SITE_URL=https://your-domain.example
 
 It drives `metadataBase`, canonical URLs and Open Graph. The same value can be set locally in `.env.local`; `.env.example` has the placeholder.
 
-Live demo: pending deployment.
+Live demo: <https://brio-energy.vercel.app>
 
 ## Status and scope
 
