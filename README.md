@@ -2,7 +2,7 @@
 
 A bilingual product site for a fictional zero-sugar energy drink, built with Next.js 16, TypeScript and Tailwind CSS v4.
 
-![Brio home page in English: the headline "STAY IN MOTION" beside a matte gold can, a plant-caffeine badge and four spec chips](docs/screenshot.webp)
+![Brio home page in English: the headline "STAY IN MOTION" beside a Yuzu & Pomelo can with a yellow-to-pink label, a plant-caffeine badge and four spec chips](docs/screenshot.webp)
 
 ## What it is
 
@@ -15,7 +15,7 @@ It is a demo. There is no cart, checkout, payment or stock database, and the new
 - **Two locales from the first route.** `/en` and `/es` are generated at build time, `proxy.ts` reads `Accept-Language`, and the header switch stores the choice in a cookie.
 - **No copy in components.** Every string lives in `i18n/dictionaries`, typed by `en.ts`; a missing Spanish key fails `tsc`.
 - **Four brand tokens.** `--ink`, `--bone`, `--signal` and `--jade` are declared once in `app/globals.css`; flavour accents are data in `content/brio.ts`.
-- **Three assets, all local.** The cans were generated for this build with a blank label and no text, so the wordmark is always CSS and never baked into an image.
+- **Three assets, all local.** The three cans ship as WebP renders in `public/images/cans`, imported as data in `content/brio.ts`. No stock photography, no remote media. The header wordmark is CSS text, so it stays sharp and translatable.
 - **Six runtime dependencies.** Next, React, React DOM, framer-motion, lucide-react and Vercel Analytics. No UI kit, no carousel library, no smooth-scroll plugin.
 - **No dead links.** Navigation and footer resolve to real section anchors or `mailto:` addresses.
 
@@ -92,7 +92,7 @@ Live demo: <https://brio-energy.vercel.app>
 
 Verified: `pnpm build` (static generation of `/en` and `/es`), `pnpm typecheck`, a visual pass at 390 px and 1440 px in both locales, and the production deployment at <https://brio-energy.vercel.app> — both locales return 200, the canonical and hreflang point at that origin, and `/sitemap.xml`, `/robots.txt` and the image optimizer resolve.
 
-Out of scope: commerce, accounts, a CMS, email delivery and analytics beyond page views. The three cans are AI-generated for this build; no stock photography is used.
+Out of scope: commerce, accounts, a CMS, email delivery and analytics beyond page views. The three cans are local renders committed to the repo; no stock photography is used.
 
 ## License
 
