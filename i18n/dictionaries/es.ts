@@ -2,33 +2,33 @@
 
 export const es: Dictionary = {
   meta: {
-    title: "Brio â€” energÃ­a vegetal, sin bajÃ³n",
+    title: "Brio — energía vegetal, sin bajón",
     description:
-      "Bebida energÃ©tica sin azÃºcar elaborada con guaranÃ¡ y tÃ© verde. 80 mg de cafeÃ­na, 12 kcal, en pequeÃ±os lotes en Valencia.",
+      "Bebida energética sin azúcar elaborada con guaraná y té verde. 80 mg de cafeína, 12 kcal, en pequeños lotes en Valencia.",
     imageAlt: "Lata de Brio sobre un fondo color hueso",
   },
   nav: {
     links: [
       { label: "Sabores", href: "#flavours" },
-      { label: "FÃ³rmula", href: "#formula" },
+      { label: "Fórmula", href: "#formula" },
       { label: "Rituales", href: "#rituals" },
       { label: "Comunidad", href: "#community" },
     ],
-    cta: "Ãšnete a la lista",
+    cta: "Únete a la lista",
     ctaHref: "#newsletter",
-    menuLabel: "Abrir menÃº",
-    closeLabel: "Cerrar menÃº",
+    menuLabel: "Abrir menú",
+    closeLabel: "Cerrar menú",
     languageLabel: "Switch to English",
     homeLabel: "Inicio de Brio",
   },
   hero: {
-    badge: "CAFEÃNA VEGETAL Â· SIN AZÃšCAR",
+    badge: "CAFEÍNA VEGETAL · SIN AZÚCAR",
     line1: "SIGUE",
     line2: "EN MARCHA",
-    lead: "80 mg de cafeÃ­na de guaranÃ¡, 12 kcal y nada artificial. EnergÃ­a que mantiene el ritmo.",
+    lead: "80 mg de cafeína de guaraná, 12 kcal y nada artificial. Energía que mantiene el ritmo.",
     primaryCta: "Ver los sabores",
-    secondaryCta: "Leer la fÃ³rmula",
-    benefits: ["Sin azÃºcar", "80 mg de cafeÃ­na", "12 kcal", "B6 + B12"],
+    secondaryCta: "Leer la fórmula",
+    benefits: ["Sin azúcar", "80 mg de cafeína", "12 kcal", "B6 + B12"],
     imageAlt: "Lata de Brio Yuzu y Pomelo",
   },
   flavours: {
@@ -37,20 +37,19 @@ export const es: Dictionary = {
     titleAccent: "RITMO",
     prev: "Sabor anterior",
     next: "Sabor siguiente",
-    badges: ["Sin azÃºcar", "80 mg de cafeÃ­na", "12 kcal", "Vegano"],
-    note: "330 ml Â· 2,40 â‚¬",
+    badges: ["Sin azúcar", "80 mg de cafeína", "12 kcal", "Vegano"],
+    note: "330 ml · 2,40 €",
     items: {
       "yuzu-pomelo": {
         name: "Yuzu y Pomelo",
         tagline: "FRESCO Y AMARGO",
         description:
-          "Piel de yuzu japonÃ©s sobre pomelo rosado. Punzante en el primer sorbo, limpio al final.",
+          "Piel de yuzu japonés sobre pomelo rosado. Punzante en el primer sorbo, limpio al final.",
       },
       "mango-cayena": {
         name: "Mango y Cayena",
         tagline: "DULCE Y PICANTE",
-        description:
-          "Mango maduro con un toque medido de cayena. Final cÃ¡lido, cero azÃºcar.",
+        description: "Mango maduro con un toque medido de cayena. Final cálido, cero azúcar.",
       },
       "cassis-salvia": {
         name: "Cassis y Salvia",
@@ -61,27 +60,27 @@ export const es: Dictionary = {
     },
   },
   formula: {
-    eyebrow: "QUÃ‰ LLEVA",
-    title: "La fÃ³rmula",
+    eyebrow: "QUÉ LLEVA",
+    title: "La fórmula",
     items: [
       {
         value: "80 mg",
-        label: "CafeÃ­na de guaranÃ¡",
-        note: "LiberaciÃ³n constante, sin picos",
+        label: "Cafeína de guaraná",
+        note: "Liberación constante, sin picos",
       },
-      { value: "0 g", label: "AzÃºcar", note: "Endulzada con eritritol" },
-      { value: "12 kcal", label: "Por lata", note: "Ligera para dÃ­as de entreno" },
+      { value: "0 g", label: "Azúcar", note: "Endulzada con eritritol" },
+      { value: "12 kcal", label: "Por lata", note: "Ligera para días de entreno" },
       { value: "B6 + B12", label: "Vitaminas", note: "Cubre la dosis diaria" },
     ],
     footnote: "Vegana. Sin gluten. Sin taurina. Sin colorantes artificiales.",
   },
   rituals: {
-    eyebrow: "PARA CUÃNDO",
+    eyebrow: "PARA CUÁNDO",
     title: "RITUALES",
     titleAccent: "DIARIOS",
     items: [
       {
-        title: "DÃ­as de entreno",
+        title: "Días de entreno",
         description: "Combustible previo que no cae pesado.",
       },
       {
@@ -94,7 +93,7 @@ export const es: Dictionary = {
       },
       {
         title: "Carretera y tren",
-        description: "Una lata en la mochila gana a la cola del andÃ©n.",
+        description: "Una lata en la mochila gana a la cola del andén.",
       },
     ],
   },
@@ -105,18 +104,18 @@ export const es: Dictionary = {
     lead: "Etiqueta #brioenergy y puede que salga tu lata.",
   },
   newsletter: {
-    title: "Â¿LISTO PARA",
+    title: "¿LISTO PARA",
     titleAccent: "MOVERTE?",
     placeholder: "tu@email.com",
-    inputLabel: "Correo electrÃ³nico",
-    button: "Ãšnete a la lista",
-    submitting: "Enviandoâ€¦",
-    success: "Ya estÃ¡s en la lista.",
+    inputLabel: "Correo electrónico",
+    button: "Únete a la lista",
+    submitting: "Enviando…",
+    success: "Ya estás en la lista.",
     note: "Un correo al mes. Baja cuando quieras.",
   },
   footer: {
     blurb:
-      "Brio es una bebida energÃ©tica sin azÃºcar elaborada con guaranÃ¡ y tÃ© verde en pequeÃ±os lotes en Valencia.",
+      "Brio es una bebida energética sin azúcar elaborada con guaraná y té verde en pequeños lotes en Valencia.",
     columns: [
       {
         title: "Productos",
@@ -130,7 +129,7 @@ export const es: Dictionary = {
       {
         title: "Explora",
         links: [
-          { label: "FÃ³rmula", href: "#formula" },
+          { label: "Fórmula", href: "#formula" },
           { label: "Rituales", href: "#rituals" },
           { label: "Comunidad", href: "#community" },
           { label: "Newsletter", href: "#newsletter" },
@@ -144,8 +143,8 @@ export const es: Dictionary = {
         ],
       },
     ],
-    legal: ["Privacidad", "TÃ©rminos", "Cookies"],
-    rights: "Â© 2026 Brio Energy. Todos los derechos reservados.",
-    tagline: "CafeÃ­na vegetal, infusionada lento",
+    legal: ["Privacidad", "Términos", "Cookies"],
+    rights: "© 2026 Brio Energy. Todos los derechos reservados.",
+    tagline: "Cafeína vegetal, infusionada lento",
   },
 }
