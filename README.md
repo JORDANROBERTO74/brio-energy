@@ -90,7 +90,7 @@ Live demo: <https://brio-energy.vercel.app>
 
 ## Status and scope
 
-Verified: `pnpm build` (static generation of `/en` and `/es`), `pnpm typecheck`, and a visual pass at 390 px and 1440 px in both locales.
+Verified: `pnpm build` (static generation of `/en` and `/es`), `pnpm typecheck`, a visual pass at 390 px and 1440 px in both locales, and the production deployment at <https://brio-energy.vercel.app> — both locales return 200, the canonical and hreflang point at that origin, and `/sitemap.xml`, `/robots.txt` and the image optimizer resolve.
 
 Out of scope: commerce, accounts, a CMS, email delivery and analytics beyond page views. The three cans are AI-generated for this build; no stock photography is used.
 
