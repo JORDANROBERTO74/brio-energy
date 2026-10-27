@@ -4,14 +4,13 @@ import { notFound } from "next/navigation"
 import { Analytics } from "@vercel/analytics/next"
 import ClickSpark from "@/components/click-spark"
 import { brand } from "@/content/brio"
+import { siteUrl } from "@/content/site"
 import { getDictionary } from "@/i18n"
 import { isLocale, locales } from "@/i18n/config"
 import "../globals.css"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" })
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://brio-energy.vercel.app"
 
 type Params = { params: Promise<{ locale: string }> }
 
@@ -34,7 +33,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     description: dict.meta.description,
     alternates: {
       canonical: `/${locale}`,
-      languages: { en: "/en", es: "/es" },
+      languages: { en: "/en", es: "/es", "x-default": "/en" },
     },
     openGraph: {
       title: dict.meta.title,
