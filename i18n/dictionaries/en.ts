@@ -1,10 +1,10 @@
-import type { FlavourId } from "@/content/brio"
+﻿import type { FlavourId } from "@/content/brio"
 
 export const en = {
   meta: {
-    title: "Brio — plant energy, no crash",
+    title: "Brio â€” plant energy, no crash",
     description:
-      "Zero-sugar energy drink brewed with guaraná and green tea. 80 mg caffeine, 12 kcal, made in small batches in Valencia.",
+      "Zero-sugar energy drink brewed with guaranÃ¡ and green tea. 80 mg caffeine, 12 kcal, made in small batches in Valencia.",
     imageAlt: "Brio can on a bone-coloured background",
   },
   nav: {
@@ -18,14 +18,14 @@ export const en = {
     ctaHref: "#newsletter",
     menuLabel: "Open menu",
     closeLabel: "Close menu",
-    languageLabel: "Cambiar a español",
+    languageLabel: "Cambiar a espaÃ±ol",
     homeLabel: "Brio home",
   },
   hero: {
-    badge: "PLANT CAFFEINE · ZERO SUGAR",
+    badge: "PLANT CAFFEINE Â· ZERO SUGAR",
     line1: "STAY",
     line2: "IN MOTION",
-    lead: "80 mg of guaraná caffeine, 12 kcal and nothing artificial. Energy that holds its rhythm.",
+    lead: "80 mg of guaranÃ¡ caffeine, 12 kcal and nothing artificial. Energy that holds its rhythm.",
     primaryCta: "See the flavours",
     secondaryCta: "Read the formula",
     benefits: ["Zero sugar", "80 mg caffeine", "12 kcal", "B6 + B12"],
@@ -38,7 +38,7 @@ export const en = {
     prev: "Previous flavour",
     next: "Next flavour",
     badges: ["Zero sugar", "80 mg caffeine", "12 kcal", "Vegan"],
-    note: "330 ml · €2.40",
+    note: "330 ml Â· â‚¬2.40",
     items: {
       "yuzu-pomelo": {
         name: "Yuzu & Pomelo",
@@ -66,7 +66,7 @@ export const en = {
     items: [
       {
         value: "80 mg",
-        label: "Guaraná caffeine",
+        label: "GuaranÃ¡ caffeine",
         note: "Steady release, no spike",
       },
       { value: "0 g", label: "Sugar", note: "Sweetened with erythritol" },
@@ -103,7 +103,6 @@ export const en = {
     title: "SHOT ON",
     titleAccent: "THE ROAD",
     lead: "Tag #brioenergy and we might feature your can.",
-    postAlt: "Brio community photo",
   },
   newsletter: {
     title: "READY TO",
@@ -111,13 +110,13 @@ export const en = {
     placeholder: "you@email.com",
     inputLabel: "Email address",
     button: "Join the list",
-    submitting: "Joining…",
+    submitting: "Joiningâ€¦",
     success: "You're on the list.",
     note: "One email a month. Unsubscribe anytime.",
   },
   footer: {
     blurb:
-      "Brio is a zero-sugar energy drink brewed with guaraná and green tea in small batches in Valencia.",
+      "Brio is a zero-sugar energy drink brewed with guaranÃ¡ and green tea in small batches in Valencia.",
     columns: [
       {
         title: "Products",
@@ -146,7 +145,7 @@ export const en = {
       },
     ],
     legal: ["Privacy", "Terms", "Cookies"],
-    rights: "© 2026 Brio Energy. All rights reserved.",
+    rights: "Â© 2026 Brio Energy. All rights reserved.",
     tagline: "Plant caffeine, brewed slow",
   },
 }
