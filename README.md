@@ -16,7 +16,7 @@ It is a demo. There is no cart, checkout, payment or stock database, and the new
 - **No copy in components.** Every string lives in `i18n/dictionaries`, typed by `en.ts`; a missing Spanish key fails `tsc`.
 - **Four brand tokens.** `--ink`, `--bone`, `--signal` and `--jade` are declared once in `app/globals.css`; flavour accents are data in `content/brio.ts`.
 - **Three assets, all local.** The cans were generated for this build with a blank label and no text, so the wordmark is always CSS and never baked into an image.
-- **Six runtime dependencies.** Next, React, framer-motion, lucide-react and Vercel Analytics. No UI kit, no carousel library, no smooth-scroll plugin.
+- **Six runtime dependencies.** Next, React, React DOM, framer-motion, lucide-react and Vercel Analytics. No UI kit, no carousel library, no smooth-scroll plugin.
 - **No dead links.** Navigation and footer resolve to real section anchors or `mailto:` addresses.
 
 ## Quick start
